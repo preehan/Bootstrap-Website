@@ -1,0 +1,92 @@
+/* Custom styles for the carousel */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #ccc; /* Add border styles */
+    padding: 0px; /* Add padding if desired  */
+    padding-left: 0;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right:20px ;
+    margin-bottom: 20px;
+} 
+   
+#carouselExample {
+    width: 1200px; /* Set the desired width */
+    height: 550px; /* Set the desired height */
+    overflow: hidden;
+    justify-items: center;
+  }
+  
+  #carouselExample .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and fill the container */
+  }
+  /* .part-2{
+  background-image: url(handshake.jpg);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position: center;
+  background-size: cover;
+} */
+
+.card-img-top{
+  width: auto;
+  height: 250px;
+  
+}
+.card{
+  transition: background-image 0.3s ease;
+  /* background-color: transparent; */
+  overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+.card-body{
+  /* background-color: black; */
+  background-image: url(clientback.jpg);
+}
+
+.hr{
+  width: 25%;
+    margin-left: 350px;
+    height: 5px;
+ 
+}
+.card img{
+  transition: transform 0.3s ease;
+}
+.card:hover img{
+  transform: scale(1.2);
+  transform-origin: center center;
+  
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3),0 0 0 4px currentColor;
+}
+
+.btn-1{
+  padding: 40px;
+ position: relative;
+ float: right;
+}
+.part2{
+  background-image: url(clientback.jpg);
+  background-size: cover;
+  /* background-position: fixed; */
+  background-repeat: no-repeat;
+  margin: 0;
+  margin-right: 0;
+}
+body {
+  background-color: black;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
